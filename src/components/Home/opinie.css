@@ -1,0 +1,29 @@
+.opinie__container {
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 2rem;
+}
+
+.opinie__container h2 {
+    color: white;
+    font-size: 2rem;
+}
+
+.opinie {
+    width: 70%;
+    height: fit-content;
+    padding: 1rem;
+    background-color: white;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.opinie img {
+    height: 100%;
+}

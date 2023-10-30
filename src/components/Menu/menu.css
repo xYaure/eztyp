@@ -1,0 +1,45 @@
+.menu__container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+}
+
+.menu__list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 25%;
+}
+
+.menu__list li a {
+    font-size: 1.2rem;
+    position: relative;
+}
+
+.menu__logo {
+    font-weight: 900;
+}
+
+.menu__regulamin {
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.menu__list li a::before {
+    content: '';
+    position: absolute;
+    height: 0.1rem;
+    width: 0;
+    bottom: -5px;
+    background-color: var(--white);
+    opacity: 0;
+    transition: .1s ease-in-out;
+}
+
+.menu__list li:hover a::before, .menu__list .active a::before{
+    opacity: 1;
+    width: 100%;
+}

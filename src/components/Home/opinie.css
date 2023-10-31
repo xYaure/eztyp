@@ -1,5 +1,5 @@
 .opinie__container {
-    min-height: 50vh;
+    min-height: 30vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,13 +17,31 @@
     width: 70%;
     height: fit-content;
     padding: 1rem;
-    background-color: white;
-    height: 50vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.05);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 1rem;
 }
 
 .opinie img {
-    height: 100%;
+    width: 200px;
+    height: auto;
+    margin: auto;
+}
+
+@media screen and (max-width: 1040px) {
+    .opinie {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .opinie {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (max-width: 520px) {
+    .opinie {
+        grid-template-columns: 1fr;
+    }
 }

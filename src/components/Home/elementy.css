@@ -1,12 +1,14 @@
 .elementy__container {
     background-color: white;
+    min-height: fit-content;
 }
 
 .elementy__wrapper {
     margin: auto;
     width: 70%;
+    height: 100%;
     display: grid;
-    gap: 10%;
+    gap: 5rem;
     grid-template-columns: repeat(4, 1fr);
     padding: 1rem;
 }
@@ -32,4 +34,16 @@
     text-align: center;
     color: rgb(148, 148, 148);
     font-size: medium;
+}
+
+@media screen and (max-width: 945px) {
+    .elementy__wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .elementy__wrapper {
+        grid-template-columns: 1fr;
+    }
 }

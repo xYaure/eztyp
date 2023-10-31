@@ -64,3 +64,22 @@
 .logo {
     height: 70%;
 }
+
+@media screen and (max-width: 945px) {
+    .home__header_right {
+        display: none;
+    }
+    .container {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .home__header {
+        grid-template-columns: 1fr;
+    }
+
+    .home__header_left_title {
+        font-size: 5rem;
+    }
+}

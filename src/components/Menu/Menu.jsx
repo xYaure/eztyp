@@ -26,7 +26,7 @@ const Menu = () => {
                 {buttons.map(({id, text, path}) =>{
                     return(
                         <li key={id} className={id === activeId ? 'active' : ''}>
-                            <Link to={path} onClick={handleClick(id), ()=> setActive(false)} >{text}</Link>
+                            <Link to={path} onClick={()=>{handleClick(id); setActive(null);}} >{text}</Link>
                         </li>
                     )
                 })}

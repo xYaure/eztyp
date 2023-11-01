@@ -1,8 +1,8 @@
 const buttons = [
     {
         id: 0,
-        text: "Analizy",
-        path: "/analizy"
+        text: "Oferty",
+        path: "/oferta"
     },
     {
         id: 1,

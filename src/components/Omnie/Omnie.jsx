@@ -4,6 +4,7 @@ import './omnie.css'
 import IMG from '../../assets/omnie.png'
 import koszykowka from '../../assets/oferty_img/koszykowka.jpg'
 import pilka from '../../assets/oferty_img/pilka.jpg'
+import Oferta from '../Home/Oferta'
 
 
 const Omnie = () => {
@@ -39,6 +40,7 @@ const Omnie = () => {
             </div>
           </section>
         </section>
+    <Oferta />
     </div>
   )
 }

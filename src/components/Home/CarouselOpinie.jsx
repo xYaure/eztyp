@@ -22,7 +22,7 @@ const CarouselOpinie = () => {
             </Carousel.Item >
 
             <Carousel.Item interval={5000}>
-                <img src={Zdj5} alt="" />
+                <img src={Zdj3} alt="" />
             </Carousel.Item>
         </Carousel>
         <Carousel >

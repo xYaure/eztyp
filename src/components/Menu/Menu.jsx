@@ -26,7 +26,7 @@ const Menu = () => {
                 {buttons.map(({id, text, path}) =>{
                     return(
                         <li key={id} className={id === activeId ? 'active' : ''}>
-                            <Link to={path} onClick={handleClick(id)} >{text}</Link>
+                            <Link to={path} onClick={()=>{handleClick(id); setActive(false)}} >{text}</Link>
                         </li>
                     )
                 })}
@@ -40,7 +40,7 @@ const Menu = () => {
 
         <Outlet />
         <Stopka />
-        </>
+        </> 
   )
 }
 

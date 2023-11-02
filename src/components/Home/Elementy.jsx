@@ -10,7 +10,7 @@ const Elementy = () => {
         <div className="elementy__wrapper">
             <div className="element">
                 <i><FaPeopleGroup/></i>
-                <h3>Doświadczenie i eksertyza</h3>
+                <h3>Doświadczenie i ekspertyza</h3>
                 <p>Nasz zespół jest pełen doświadczonych analityków sportowych</p>
             </div>
             <div className="element">

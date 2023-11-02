@@ -11,7 +11,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 25%;
+    width: 30%;
 }
 
 .menu__list li a {
@@ -51,6 +51,12 @@
 }
 
 @media screen and (max-width: 890px) {
+    .menu__list {
+        gap: 2rem;
+    }
+    
+}
+@media screen and (max-width: 1070px) {
     .menu__list {
         gap: 2rem;
     }

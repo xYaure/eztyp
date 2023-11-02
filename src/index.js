@@ -7,6 +7,8 @@ import Analizy from './components/Analizy/Analizy';
 import Home from './components/Home/Home';
 import NoPage from './pages/NoPage'
 import Kontakt from './components/Kontakt/Kontakt'
+import Omnie from './components/Omnie/Omnie';
+import FAQ from './components/FAQ/FAQ';
 
 export default function App(){
   return (
@@ -16,6 +18,8 @@ export default function App(){
           <Route index element={<Home />} />
           <Route path='oferta' element={<Analizy />} />
           <Route path='kontakt' element={<Kontakt />} />
+          <Route path='omnie' element={<Omnie />} />
+          <Route path='faq' element={<FAQ />} />
           <Route path='*' element={<NoPage />} />
         </Route>
       </Routes>

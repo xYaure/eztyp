@@ -26,13 +26,13 @@ const Menu = () => {
                 {buttons.map(({id, text, path}) =>{
                     return(
                         <li key={id} className={id === activeId ? 'active' : ''}>
-                            <Link to={path} onClick={()=>{handleClick(id); setActive(null);}} >{text}</Link>
+                            <Link to={path} onClick={handleClick(id)} >{text}</Link>
                         </li>
                     )
                 })}
                 <i><AiOutlineClose onClick={()=> setActive(!active)} /></i>
             </ul>
-            <Link to="/regulamin" onClick={() => setActiveId(null)} className='menu__regulamin'>Regulamin</Link>
+            <Link to="/faq" onClick={() => setActiveId(null)} className='menu__regulamin'>FAQ</Link>
             <div className="menu__toggle">
                 <i><AiOutlineMenu onClick={()=> setActive(!active)} /></i>
             </div>

@@ -20,11 +20,11 @@ const Oferta = () => {
           <div className="oferta__zdj">
             <img className='oferta__zdjecie' src={tenis} alt="" />
             <div className="oferta__napis">
-              <h2>Kurs 5+</h2>
+              <h2>Analiza Podstawowa</h2>
             </div>
           </div>
           <div className="oferta__nazwa">
-            <h3>1 Kupon Kurs 5+ <span>44.99 zł</span></h3>
+            <h3>Kurs około 2 <span>19.99 zł</span></h3>
           </div>
           <Link to="/kontakt"  className='btn'>Zamów</Link>
         </div>
@@ -32,11 +32,11 @@ const Oferta = () => {
           <div className="oferta__zdj">
             <img className='oferta__zdjecie' src={pilka} alt="" />
             <div className="oferta__napis">
-              <h2>Kurs 10+</h2>
+              <h2>Analiza Premium</h2>
             </div>
           </div>
           <div className="oferta__nazwa">
-            <h3>1 Kupon kurs 10+ <span>99.99 zł</span></h3>
+            <h3>Kurs około 3.5 <span>29.99 zł</span></h3>
           </div>
           <Link to="/kontakt"  className='btn'>Zamów</Link>
         </div>
@@ -44,11 +44,11 @@ const Oferta = () => {
           <div className="oferta__zdj">
             <img className='oferta__zdjecie' src={pingpong} alt="" />
             <div className="oferta__napis">
-              <h2>Kurs 3.5+</h2>
+              <h2>Analiza VIP</h2>
             </div>
           </div>
           <div className="oferta__nazwa">
-            <h3>1 kupon kurs 3.5+ <span>29.99 zł</span></h3>
+            <h3>Kurs około 4.5 <span>39.99 zł</span></h3>
           </div>
           <Link to="/kontakt"  className='btn'>Zamów</Link>
         </div>
@@ -56,23 +56,11 @@ const Oferta = () => {
           <div className="oferta__zdj">
             <img className='oferta__zdjecie' src={koszykowka} alt="" />
             <div className="oferta__napis">
-              <h2>3 Kupony</h2>
+              <h2>Analiza KING</h2>
             </div>
           </div>
           <div className="oferta__nazwa">
-            <h3>Pakiet 3 Kupony <span>79.99 zł</span></h3>
-          </div>
-          <Link to="/kontakt"  className='btn'>Zamów</Link>
-        </div>
-        <div className="oferta">
-          <div className="oferta__zdj">
-            <img className='oferta__zdjecie' src={kalendarz} alt="" />
-            <div className="oferta__napis">
-              <h2>30 dni</h2>
-            </div>
-          </div>
-          <div className="oferta__nazwa">
-            <h3>Subskrybcja 30 dni  <span>249 zł</span></h3>
+            <h3>Kurs około 6.5 <span>54.99 zł</span></h3>
           </div>
           <Link to="/kontakt"  className='btn'>Zamów</Link>
         </div>
@@ -84,7 +72,7 @@ const Oferta = () => {
             </div>
           </div>
           <div className="oferta__nazwa">
-            <h3>Nauka typowania <span>799 zł</span></h3>
+            <h3>Kurs Typowania od 0 <span>799 zł</span></h3>
           </div>
           <Link to="/kontakt"  className='btn'>Zamów</Link>
         </div>

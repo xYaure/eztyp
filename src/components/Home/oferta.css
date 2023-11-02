@@ -22,11 +22,12 @@
     grid-template-columns: repeat(3, 1fr);
     padding: 1rem;
     row-gap: 1rem;
+    gap: 1rem;
 }
 
 .oferta {
     min-height: 30vh;
-    width: fit-content;
+    width: 100%;
     border: 4px rgba(0, 0, 0, 0.356) dashed;
     padding: 1rem;
     display: flex;
@@ -58,8 +59,9 @@
 
 .oferta__napis h2 {
     color: white;
-    font-size: 250%;
+    font-size: 3rem;
     letter-spacing: 4px;
+    text-align: center;
 }
 
 .oferta__zdjecie {
@@ -96,6 +98,11 @@
     }
     .oferta {
         width: 100%;
+    }
+}
+@media screen and (max-width: 1050px) {
+    .oferta__napis h2 {
+        font-size: 2rem;
     }
 }
 

@@ -12,7 +12,7 @@ const Kontakt = () => {
         <div className='kontakt'>
             <h1>Skontaktować się ze mną możesz poprzez instagram</h1>
             <h2>Pisz śmiało</h2>
-            <a target='_blank' href="https://www.instagram.com/donkllmn/">donkllmn</a>
+            <a target='_blank' rel='noreferrer' href="https://www.instagram.com/donkllmn/">donkllmn</a>
         </div>
     </section>
   )

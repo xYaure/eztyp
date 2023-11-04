@@ -4,6 +4,7 @@ import './omnie.css'
 import IMG from '../../assets/omnie.png'
 import tenis from '../../assets/oferty_img/tenis.jpg'
 import pilka from '../../assets/oferty_img/pilka.jpg'
+import { BsCheckCircleFill } from 'react-icons/bs'
 
 
 const Omnie = () => {
@@ -37,6 +38,14 @@ const Omnie = () => {
                 <h2>Piłka nożna</h2>
               </div>
             </div>
+          </section>
+          <section className='omnie__choose'>
+            <h1>Dlaczego warto mnie wybrać?</h1>
+            <h2><BsCheckCircleFill/> Oferuję profesjonalną analizę sportową.</h2>
+            <h2><BsCheckCircleFill/> racuję z zaangażowaniem, aby dostarczyć Ci jak najlepsze prognozy.</h2>
+            <h2><BsCheckCircleFill/> Nie jestem tylko analitykiem, ale też wielkim fanem sportu.</h2>
+            <h2><BsCheckCircleFill/> Nie jestem tylko analitykiem, ale też wielkim fanem sportu.</h2>
+            <h2><BsCheckCircleFill/> Jestem otwarty na kontakt i chętnie porozmawiam o Twoich potrzebach i oczekiwaniach.</h2>
           </section>
         </section>
     </div>

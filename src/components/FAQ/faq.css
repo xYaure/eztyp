@@ -1,0 +1,59 @@
+.faq{
+    width: 80%;
+    margin: 5vh auto;
+}
+
+.faq__question {
+    padding: 1rem 0;
+    color: white;
+    background-color: transparent;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: .3rem;
+    cursor: pointer;
+}
+
+.faq__question svg{
+    fill: var(--blue);
+}
+
+.faq label{
+    border-bottom: 2px solid white;
+    padding: 1rem;
+    width: 100%;
+    display: block;
+    height: fit-content;
+}
+
+.faq label div {
+    display: none;
+}
+
+.faq label .faq__answer {
+    padding: 1rem 0;
+    width: 100%;
+    color: white;
+    display: block;
+    transform: translateY(-100%);
+    animation: answer__anim .3s forwards ease-in-out;
+}
+
+@keyframes answer__anim {
+    0%{
+        transform: translateY(-50%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .faq {
+        width: 90%;
+    }
+}

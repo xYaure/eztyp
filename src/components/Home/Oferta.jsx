@@ -71,7 +71,7 @@ const Oferta = () => {
             </div>
           </div>
           <div className="oferta__nazwa">
-            <h3>Kurs Typowania od 0 <span>799 zł</span></h3>
+            <h3>Kurs Typowania od zera <span>799 zł</span></h3>
           </div>
           <Link to="/kontakt"  className='btn'>Zamów</Link>
         </div>

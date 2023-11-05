@@ -42,7 +42,7 @@ const Omnie = () => {
           <section className='omnie__choose'>
             <h1>Dlaczego warto mnie wybrać?</h1>
             <h2><BsCheckCircleFill/> Oferuję profesjonalną analizę sportową.</h2>
-            <h2><BsCheckCircleFill/> racuję z zaangażowaniem, aby dostarczyć Ci jak najlepsze prognozy.</h2>
+            <h2><BsCheckCircleFill/> Pracuję z zaangażowaniem, aby dostarczyć Ci jak najlepsze prognozy.</h2>
             <h2><BsCheckCircleFill/> Nie jestem tylko analitykiem, ale też wielkim fanem sportu.</h2>
             <h2><BsCheckCircleFill/> Nie jestem tylko analitykiem, ale też wielkim fanem sportu.</h2>
             <h2><BsCheckCircleFill/> Jestem otwarty na kontakt i chętnie porozmawiam o Twoich potrzebach i oczekiwaniach.</h2>
